@@ -1,0 +1,5018 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Vehicle\ADSBVehicle.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\APM\APMAirframeComponent.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\APM\APMAirframeComponentAirframes.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\APM\APMAirframeComponentController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\APM\APMAirframeLoader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\APM\APMAutoPilotPlugin.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\APM\APMCameraComponent.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\APM\APMCompassCal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FirmwarePlugin\APM\APMFirmwarePlugin.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FirmwarePlugin\APM\APMFirmwarePluginFactory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\APM\APMFlightModesComponent.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\APM\APMFlightModesComponentController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\APM\APMLightsComponent.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FirmwarePlugin\APM\APMParameterMetaData.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\APM\APMPowerComponent.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\APM\APMRadioComponent.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\APM\APMSafetyComponent.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\APM\APMSensorsComponent.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\APM\APMSensorsComponentController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\APM\APMSubFrameComponent.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\APM\APMTuningComponent.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\PX4\AirframeComponent.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\PX4\AirframeComponentAirframes.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\PX4\AirframeComponentController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QmlControls\AppMessages.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Settings\AppSettings.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FirmwarePlugin\APM\ArduCopterFirmwarePlugin.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FirmwarePlugin\APM\ArduPlaneFirmwarePlugin.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FirmwarePlugin\APM\ArduRoverFirmwarePlugin.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FirmwarePlugin\APM\ArduSubFirmwarePlugin.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Audio\AudioOutput.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Audio\AudioOutputTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Settings\AutoConnectSettings.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\AutoPilotPlugin.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\VehicleSetup\Bootloader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Settings\BrandImageSettings.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\CameraCalc.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\CameraCalcTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\PX4\CameraComponent.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FirmwarePlugin\CameraMetaData.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\CameraSection.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\CameraSectionTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\CameraSpec.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\linechart\ChartPlot.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CmdLineOptParser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\ComplexMissionItem.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QmlControls\CoordinateVector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\CorridorScanComplexItem.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\CorridorScanComplexItemTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ViewWidgets\CustomCommandWidget.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ViewWidgets\CustomCommandWidgetController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\Common\ESP8266Component.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\Common\ESP8266ComponentController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QmlControls\EditPositionDialogController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AnalyzeView\ExifParser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FactSystem\Fact.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FactSystem\FactGroup.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FactSystem\FactMetaData.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FactSystem\FactControls\FactPanelController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FactSystem\FactSystem.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FactSystem\FactSystemTestBase.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FactSystem\FactSystemTestGeneric.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FactSystem\FactSystemTestPX4.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FactSystem\FactValueSliderListModel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\qgcunittest\FileDialogTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\uas\FileManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\qgcunittest\FileManagerTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\VehicleSetup\FirmwareImage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FirmwarePlugin\FirmwarePlugin.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FirmwarePlugin\FirmwarePluginManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\VehicleSetup\FirmwareUpgradeController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\FixedWingLandingComplexItem.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\qgcunittest\FlightGearTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Settings\FlightMapSettings.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\PX4\FlightModesComponent.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FollowMe\FollowMe.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GPS\GPSManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GPS\GPSProvider.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Vehicle\GPSRTKFactGroup.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\Generic\GenericAutoPilotPlugin.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\GeoFenceController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\GeoFenceManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AnalyzeView\GeoTagController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\qgcunittest\GeoTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Settings\GuidedSettings.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\HILDockWidget.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\comm\HeartbeatTimer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\linechart\IncrementalPlot.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Joystick\Joystick.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\VehicleSetup\JoystickConfigController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Joystick\JoystickManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Joystick\JoystickSDL.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\JsonHelper.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\KML.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\KMLFileHelper.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\linechart\LinechartPlot.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\linechart\LinechartWidget.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\linechart\Linecharts.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\comm\LinkConfiguration.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\comm\LinkInterface.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\comm\LinkManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\qgcunittest\LinkManagerTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LogCompressor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AnalyzeView\LogDownloadController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AnalyzeView\LogDownloadTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\comm\LogReplayLink.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\MAVLinkDecoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Vehicle\MAVLinkLogManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\comm\MAVLinkProtocol.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\MainWindow.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\qgcunittest\MainWindowTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AnalyzeView\MavlinkConsoleController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\qgcunittest\MavlinkLogTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\qgcunittest\MessageBoxTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\MissionCommandList.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\MissionCommandTree.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\MissionCommandTreeTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\MissionCommandUIInfo.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\MissionController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\MissionControllerManagerTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\MissionControllerTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\MissionItem.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\MissionItemTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\MissionManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\MissionManagerTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\MissionSettingsItem.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\MissionSettingsTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\comm\MockLink.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\comm\MockLinkFileServer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\comm\MockLinkMissionItemHandler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\Common\MotorComponent.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\qgcunittest\MultiSignalSpy.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\MultiVehicleDockWidget.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Vehicle\MultiVehicleManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\PX4\PX4AdvancedFlightModesController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\PX4\PX4AirframeLoader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\PX4\PX4AutoPilotPlugin.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FirmwarePlugin\PX4\PX4FirmwarePlugin.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FirmwarePlugin\PX4\PX4FirmwarePluginFactory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\VehicleSetup\PX4FirmwareUpgradeThread.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AnalyzeView\PX4LogParser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FirmwarePlugin\PX4\PX4ParameterMetaData.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\PX4\PX4RadioComponent.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\PX4\PX4SimpleFlightModesController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\PX4\PX4TuningComponent.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QmlControls\ParameterEditorController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FactSystem\ParameterManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FactSystem\ParameterManagerTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\PlanElementController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\PlanManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\PlanMasterController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\PlanMasterControllerTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PositionManager\PositionManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\PX4\PowerComponent.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\PX4\PowerComponentController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QGC.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QGCApplication.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Camera\QGCCameraControl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Camera\QGCCameraIO.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Camera\QGCCameraManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QGCComboBox.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\api\QGCCorePlugin.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QGCDockWidget.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\QGCFenceCircle.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\QGCFencePolygon.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QmlControls\QGCFileDialogController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QGCFileDownload.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\comm\QGCFlightGearLink.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QGCGeo.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\QGCHilConfiguration.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\QGCHilFlightGearConfiguration.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\QGCHilJSBSimConfiguration.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\QGCHilXPlaneConfiguration.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QmlControls\QGCImageProvider.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\comm\QGCJSBSimLink.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QGCLoggingCategory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\comm\QGCMAVLink.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\QGCMAVLinkInspector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\QGCMAVLinkLogPlayer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\QGCMapCircle.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QtLocationPlugin\QGCMapEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QtLocationPlugin\QMLControl\QGCMapEngineManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QGCMapPalette.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\QGCMapPolygon.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\QGCMapPolygonTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\QGCMapPolyline.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\QGCMapPolylineTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\QGCMapRCToParamDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QtLocationPlugin\QGCMapTileSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QtLocationPlugin\QGCMapUrlEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\api\QGCOptions.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QGCPalette.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QGCQFileDialog.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QGCQGeoCoordinate.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QGCQmlWidgetHolder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QGCQuickWidget.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\comm\QGCSerialPortInfo.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\api\QGCSettings.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QGCTemporaryFile.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QtLocationPlugin\QGCTileCacheWorker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QGCToolbox.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\QGCUASFileView.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\QGCUASFileViewMulti.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\uas\QGCUnconnectedInfoWidget.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\comm\QGCXPlaneLink.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QtLocationPlugin\QGeoCodeReplyQGC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QtLocationPlugin\QGeoCodingManagerEngineQGC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QtLocationPlugin\QGeoMapReplyQGC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QtLocationPlugin\QGeoServiceProviderPluginQGC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QtLocationPlugin\QGeoTileFetcherQGC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QtLocationPlugin\QGeoTiledMappingManagerEngineQGC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QmlControls\QGroundControlQmlGlobal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\api\QmlComponentInfo.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QmlControls\QmlObjectListModel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QmlControls\QmlTestWidget.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QmlControls\RCChannelMonitorController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GPS\RTCM\RTCMMavlink.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Settings\RTKSettings.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\Common\RadioComponentController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\qgcunittest\RadioConfigTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\RallyPoint.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\RallyPointController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\RallyPointManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RunGuard.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\PX4\SafetyComponent.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\QmlControls\ScreenToolsController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\linechart\ScrollZoomer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ui\linechart\Scrollbar.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\SectionTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Vehicle\SendMavCommandTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\PX4\SensorsComponent.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\PX4\SensorsComponentController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\comm\SerialLink.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FactSystem\SettingsFact.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Settings\SettingsGroup.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Settings\SettingsManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\SimpleMissionItem.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\SimpleMissionItemTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PositionManager\SimulatedPosition.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\SpeedSection.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\SpeedSectionTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\StructureScanComplexItem.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\StructureScanComplexItemTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\SurveyComplexItem.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\SurveyComplexItemTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\Common\SyslinkComponent.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoPilotPlugins\Common\SyslinkComponentController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\comm\TCPLink.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\qgcunittest\TCPLinkTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\qgcunittest\TCPLoopBackServer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Terrain\TerrainQuery.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TerrainTile.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\TransectStyleComplexItem.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\TransectStyleComplexItemTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\uas\UAS.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\uas\UASMessageHandler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\comm\UDPLink.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AnalyzeView\ULogParser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UTM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\qgcunittest\UnitTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\qgcunittest\UnitTestList.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Settings\UnitsSettings.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FlightMap\Widgets\ValuesWidgetController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Vehicle\Vehicle.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\VehicleSetup\VehicleComponent.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\VideoStreaming\VideoItem.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FlightDisplay\VideoManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\VideoStreaming\VideoReceiver.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Settings\VideoSettings.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\VideoStreaming\VideoStreaming.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\VideoStreaming\VideoSurface.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ViewWidgets\ViewWidgetController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\VisualMissionItem.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MissionManager\VisualMissionItemTest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GPS\Drivers\src\gps_helper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_abstract_legend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_abstract_scale.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_abstract_scale_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_abstract_slider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_analog_clock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_arrow_button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_clipper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_color_map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_compass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_compass_rose.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_counter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_curve_fitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_dial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_dial_needle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_dyngrid_layout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_event_pattern.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_graphic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_interval.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_knob.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_legend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_legend_data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_legend_label.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_magnifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_math.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_null_paintdevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_painter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_painter_command.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_panner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_picker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_picker_machine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_pixel_matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_plot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_plot_axis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_plot_canvas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_plot_curve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_plot_dict.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_plot_grid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_plot_item.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_plot_layout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_plot_magnifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_plot_marker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_plot_panner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_plot_picker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_plot_rasteritem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_plot_scaleitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_plot_seriesitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_plot_spectrogram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_plot_svgitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_plot_xml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_plot_zoomer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_point_data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_point_mapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_raster_data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_round_scale_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_scale_div.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_scale_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_scale_engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_scale_map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_scale_widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_series_data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_slider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_spline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_symbol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_text.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_text_engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_text_label.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_thermo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_transform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_wheel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\qwt\qwt_widget_overlay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GPS\Drivers\src\ubx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\src\Vehicle\ADSBVehicle.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\APM\APMAirframeComponent.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\src\AutoPilotPlugins\APM\APMAirframeComponentAirframes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\src\AutoPilotPlugins\APM\APMAirframeComponentController.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\APM\APMAirframeLoader.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\APM\APMAutoPilotPlugin.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\APM\APMCameraComponent.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\APM\APMCompassCal.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\FirmwarePlugin\APM\APMFirmwarePlugin.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\FirmwarePlugin\APM\APMFirmwarePluginFactory.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\APM\APMFlightModesComponent.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\APM\APMFlightModesComponentController.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\APM\APMLightsComponent.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\FirmwarePlugin\APM\APMParameterMetaData.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\APM\APMPowerComponent.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\APM\APMRadioComponent.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\APM\APMSafetyComponent.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\APM\APMSensorsComponent.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\APM\APMSensorsComponentController.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\APM\APMSubFrameComponent.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\APM\APMTuningComponent.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\PX4\AirframeComponent.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\src\AutoPilotPlugins\PX4\AirframeComponentAirframes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\src\AutoPilotPlugins\PX4\AirframeComponentController.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\QmlControls\AppMessages.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\Settings\AppSettings.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\FirmwarePlugin\APM\ArduCopterFirmwarePlugin.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\FirmwarePlugin\APM\ArduPlaneFirmwarePlugin.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\FirmwarePlugin\APM\ArduRoverFirmwarePlugin.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\FirmwarePlugin\APM\ArduSubFirmwarePlugin.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\Audio\AudioOutput.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\Audio\AudioOutputTest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\Settings\AutoConnectSettings.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\AutoPilotPlugin.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\VehicleSetup\Bootloader.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\Settings\BrandImageSettings.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\CameraCalc.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\CameraCalcTest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\PX4\CameraComponent.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\FirmwarePlugin\CameraMetaData.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\CameraSection.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\CameraSectionTest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\CameraSpec.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\ui\linechart\ChartPlot.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\src\CmdLineOptParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\src\MissionManager\ComplexMissionItem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\QmlControls\CoordinateVector.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\CorridorScanComplexItem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\CorridorScanComplexItemTest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\ViewWidgets\CustomCommandWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\ViewWidgets\CustomCommandWidgetController.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\Common\ESP8266Component.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\Common\ESP8266ComponentController.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\QmlControls\EditPositionDialogController.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\src\AnalyzeView\ExifParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\src\FactSystem\Fact.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\FactSystem\FactGroup.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\FactSystem\FactMetaData.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\FactSystem\FactControls\FactPanelController.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\FactSystem\FactSystem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\FactSystem\FactSystemTestBase.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\FactSystem\FactSystemTestGeneric.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\FactSystem\FactSystemTestPX4.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\FactSystem\FactValueSliderListModel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\qgcunittest\FileDialogTest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\uas\FileManager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\qgcunittest\FileManagerTest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\VehicleSetup\FirmwareImage.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\FirmwarePlugin\FirmwarePlugin.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\FirmwarePlugin\FirmwarePluginManager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\VehicleSetup\FirmwareUpgradeController.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\FixedWingLandingComplexItem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\qgcunittest\FlightGearTest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\Settings\FlightMapSettings.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\PX4\FlightModesComponent.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\FollowMe\FollowMe.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\GPS\GPSManager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\src\GPS\GPSPositionMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\src\GPS\GPSProvider.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\Vehicle\GPSRTKFactGroup.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\Generic\GenericAutoPilotPlugin.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\GeoFenceController.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\GeoFenceManager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AnalyzeView\GeoTagController.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\qgcunittest\GeoTest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\Settings\GuidedSettings.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\ui\HILDockWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\comm\HeartbeatTimer.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\ui\linechart\IncrementalPlot.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\Joystick\Joystick.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\VehicleSetup\JoystickConfigController.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\Joystick\JoystickManager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\src\Joystick\JoystickSDL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\JsonHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MissionManager\KML.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\src\KMLFileHelper.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\ui\linechart\LinechartPlot.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\ui\linechart\LinechartWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\ui\linechart\Linecharts.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\comm\LinkConfiguration.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\comm\LinkInterface.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\comm\LinkManager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\qgcunittest\LinkManagerTest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\LogCompressor.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AnalyzeView\LogDownloadController.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AnalyzeView\LogDownloadTest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\comm\LogReplayLink.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\ui\MAVLinkDecoder.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\Vehicle\MAVLinkLogManager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\comm\MAVLinkProtocol.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\src\MG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\src\ui\MainWindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\qgcunittest\MainWindowTest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AnalyzeView\MavlinkConsoleController.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\qgcunittest\MavlinkLogTest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\qgcunittest\MessageBoxTest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\MissionCommandList.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\MissionCommandTree.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\MissionCommandTreeTest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\MissionCommandUIInfo.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\MissionController.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\MissionControllerManagerTest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\MissionControllerTest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\MissionItem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\MissionItemTest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\MissionManager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\MissionManagerTest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\MissionSettingsItem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\MissionSettingsTest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\comm\MockLink.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\comm\MockLinkFileServer.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\comm\MockLinkMissionItemHandler.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\Common\MotorComponent.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\qgcunittest\MultiSignalSpy.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\ui\MultiVehicleDockWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\Vehicle\MultiVehicleManager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\PX4\PX4AdvancedFlightModesController.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\PX4\PX4AirframeLoader.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\PX4\PX4AutoPilotPlugin.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\FirmwarePlugin\PX4\PX4FirmwarePlugin.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\FirmwarePlugin\PX4\PX4FirmwarePluginFactory.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\VehicleSetup\PX4FirmwareUpgradeThread.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\src\AnalyzeView\PX4LogParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\src\FirmwarePlugin\PX4\PX4ParameterMetaData.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\PX4\PX4RadioComponent.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\PX4\PX4SimpleFlightModesController.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\PX4\PX4TuningComponent.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\QmlControls\ParameterEditorController.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\FactSystem\ParameterManager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\FactSystem\ParameterManagerTest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\PlanElementController.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\PlanManager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\PlanMasterController.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\PlanMasterControllerTest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\PositionManager\PositionManager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\PX4\PowerComponent.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\PX4\PowerComponentController.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\comm\ProtocolInterface.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\QGC.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\QGCApplication.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\Camera\QGCCameraControl.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\src\Camera\QGCCameraIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\src\Camera\QGCCameraManager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\QGCComboBox.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\src\QGCConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\src\api\QGCCorePlugin.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\QGCDockWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\QGCFenceCircle.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\QGCFencePolygon.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\QmlControls\QGCFileDialogController.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\QGCFileDownload.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\comm\QGCFlightGearLink.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\src\QGCGeo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\src\ui\QGCHilConfiguration.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\ui\QGCHilFlightGearConfiguration.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\ui\QGCHilJSBSimConfiguration.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\comm\QGCHilLink.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\ui\QGCHilXPlaneConfiguration.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\src\QmlControls\QGCImageProvider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\src\comm\QGCJSBSimLink.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\QGCLoggingCategory.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\src\comm\QGCMAVLink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\src\ui\QGCMAVLinkInspector.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\ui\QGCMAVLinkLogPlayer.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\QGCMapCircle.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\QtLocationPlugin\QGCMapEngine.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\QtLocationPlugin\QGCMapEngineData.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\QtLocationPlugin\QMLControl\QGCMapEngineManager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\QGCMapPalette.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\QGCMapPolygon.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\QGCMapPolygonTest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\QGCMapPolyline.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\QGCMapPolylineTest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\ui\QGCMapRCToParamDialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\QtLocationPlugin\QGCMapTileSet.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\QtLocationPlugin\QGCMapUrlEngine.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\src\QGCMessageBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\src\api\QGCOptions.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\QGCPalette.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\src\QGCQFileDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\src\QGCQGeoCoordinate.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\QGCQmlWidgetHolder.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\QGCQuickWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\src\comm\QGCSerialPortInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\src\api\QGCSettings.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\QGCTemporaryFile.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\QtLocationPlugin\QGCTileCacheWorker.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\QGCToolbox.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\ui\QGCUASFileView.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\ui\QGCUASFileViewMulti.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\ui\uas\QGCUnconnectedInfoWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\comm\QGCXPlaneLink.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\QtLocationPlugin\QGeoCodeReplyQGC.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\QtLocationPlugin\QGeoCodingManagerEngineQGC.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\QtLocationPlugin\QGeoMapReplyQGC.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\QtLocationPlugin\QGeoServiceProviderPluginQGC.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\QtLocationPlugin\QGeoTileFetcherQGC.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\QtLocationPlugin\QGeoTiledMappingManagerEngineQGC.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\QmlControls\QGroundControlQmlGlobal.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\api\QmlComponentInfo.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\QmlControls\QmlObjectListModel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\QmlControls\QmlTestWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\QmlControls\RCChannelMonitorController.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\GPS\RTCM\RTCMMavlink.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\Settings\RTKSettings.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\Common\RadioComponentController.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\qgcunittest\RadioConfigTest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\RallyPoint.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\RallyPointController.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\RallyPointManager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\src\RunGuard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\src\AutoPilotPlugins\PX4\SafetyComponent.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\QmlControls\ScreenToolsController.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\ui\linechart\ScrollZoomer.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\ui\linechart\Scrollbar.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\Section.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\SectionTest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\Vehicle\SendMavCommandTest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\PX4\SensorsComponent.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\PX4\SensorsComponentController.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\comm\SerialLink.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\FactSystem\SettingsFact.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\Settings\SettingsGroup.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\Settings\SettingsManager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\SimpleMissionItem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\SimpleMissionItemTest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\PositionManager\SimulatedPosition.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\SpeedSection.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\SpeedSectionTest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\StructureScanComplexItem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\StructureScanComplexItemTest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\SurveyComplexItem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\SurveyComplexItemTest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\Common\SyslinkComponent.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\AutoPilotPlugins\Common\SyslinkComponentController.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\comm\TCPLink.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\qgcunittest\TCPLinkTest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\qgcunittest\TCPLoopBackServer.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\Terrain\TerrainQuery.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\src\TerrainTile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\src\MissionManager\TransectStyleComplexItem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\TransectStyleComplexItemTest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\uas\UAS.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\uas\UASInterface.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\uas\UASMessageHandler.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\comm\UDPLink.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\src\AnalyzeView\ULogParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UTM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\src\qgcunittest\UnitTest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\Settings\UnitsSettings.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\FlightMap\Widgets\ValuesWidgetController.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\Vehicle\Vehicle.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\VehicleSetup\VehicleComponent.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\VideoStreaming\VideoItem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\FlightDisplay\VideoManager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\VideoStreaming\VideoReceiver.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\Settings\VideoSettings.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\src\VideoStreaming\VideoStreaming.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\src\VideoStreaming\VideoSurface.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\src\VideoStreaming\VideoSurface_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\src\ViewWidgets\ViewWidgetController.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\VisualMissionItem.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\MissionManager\VisualMissionItemTest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\src\GPS\definitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GPS\Drivers\src\gps_helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\FirmwarePlugin\PX4\px4_custom_mode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\qwt\qwt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\libs\qwt\qwt_abstract_legend.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\libs\qwt\qwt_abstract_scale.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\libs\qwt\qwt_abstract_scale_draw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\libs\qwt\qwt_abstract_slider.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\libs\qwt\qwt_analog_clock.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\libs\qwt\qwt_arrow_button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\qwt\qwt_clipper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\qwt\qwt_color_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\libs\qwt\qwt_compass.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\libs\qwt\qwt_compass_rose.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\libs\qwt\qwt_counter.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\libs\qwt\qwt_curve_fitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\libs\qwt\qwt_dial.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\libs\qwt\qwt_dial_needle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\libs\qwt\qwt_dyngrid_layout.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\libs\qwt\qwt_event_pattern.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\qwt\qwt_global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\qwt\qwt_graphic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\qwt\qwt_interval.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\libs\qwt\qwt_knob.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\libs\qwt\qwt_legend.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\libs\qwt\qwt_legend_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\libs\qwt\qwt_legend_label.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\libs\qwt\qwt_magnifier.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\libs\qwt\qwt_math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\qwt\qwt_null_paintdevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\qwt\qwt_painter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\qwt\qwt_painter_command.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\libs\qwt\qwt_panner.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\libs\qwt\qwt_picker.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\libs\qwt\qwt_picker_machine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\qwt\qwt_pixel_matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\libs\qwt\qwt_plot.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\libs\qwt\qwt_plot_canvas.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\libs\qwt\qwt_plot_curve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\qwt\qwt_plot_dict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\qwt\qwt_plot_grid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\qwt\qwt_plot_item.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\qwt\qwt_plot_layout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\libs\qwt\qwt_plot_magnifier.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\libs\qwt\qwt_plot_marker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\libs\qwt\qwt_plot_panner.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\libs\qwt\qwt_plot_picker.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\libs\qwt\qwt_plot_rasteritem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\qwt\qwt_plot_scaleitem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\qwt\qwt_plot_seriesitem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\qwt\qwt_plot_spectrogram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\qwt\qwt_plot_svgitem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\libs\qwt\qwt_plot_zoomer.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\libs\qwt\qwt_point_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\qwt\qwt_point_mapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\qwt\qwt_raster_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\qwt\qwt_round_scale_draw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\qwt\qwt_scale_div.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\qwt\qwt_scale_draw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\qwt\qwt_scale_engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\qwt\qwt_scale_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\libs\qwt\qwt_scale_widget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\libs\qwt\qwt_series_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\libs\qwt\qwt_slider.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\libs\qwt\qwt_spline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\qwt\qwt_symbol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\qwt\qwt_text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\qwt\qwt_text_engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\libs\qwt\qwt_text_label.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\libs\qwt\qwt_thermo.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\libs\qwt\qwt_transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\libs\qwt\qwt_wheel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\libs\qwt\qwt_widget_overlay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GPS\satellite_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\src\stable_headers.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\src\GPS\Drivers\src\ubx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GPS\vehicle_gps_position.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="moc\moc_ADSBVehicle.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_APMAirframeComponent.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_APMAirframeComponentController.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_APMAirframeLoader.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_APMAutoPilotPlugin.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_APMCameraComponent.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_APMCompassCal.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_APMFirmwarePlugin.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_APMFirmwarePluginFactory.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_APMFlightModesComponent.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_APMFlightModesComponentController.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_APMLightsComponent.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_APMParameterMetaData.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_APMPowerComponent.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_APMRadioComponent.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_APMSafetyComponent.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_APMSensorsComponent.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_APMSensorsComponentController.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_APMSubFrameComponent.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_APMTuningComponent.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_AirframeComponent.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_AirframeComponentController.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_AppMessages.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_AppSettings.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_ArduCopterFirmwarePlugin.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_ArduPlaneFirmwarePlugin.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_ArduRoverFirmwarePlugin.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_ArduSubFirmwarePlugin.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_AudioOutput.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_AudioOutputTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_AutoConnectSettings.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_AutoPilotPlugin.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_Bootloader.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_BrandImageSettings.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_CameraCalc.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_CameraCalcTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_CameraComponent.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_CameraMetaData.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_CameraSection.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_CameraSectionTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_CameraSpec.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_ChartPlot.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_ComplexMissionItem.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_CoordinateVector.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_CorridorScanComplexItem.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_CorridorScanComplexItemTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_CustomCommandWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_CustomCommandWidgetController.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_ESP8266Component.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_ESP8266ComponentController.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_EditPositionDialogController.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_Fact.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_FactGroup.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_FactMetaData.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_FactPanelController.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_FactSystem.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_FactSystemTestBase.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_FactSystemTestGeneric.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_FactSystemTestPX4.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_FactValueSliderListModel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_FileDialogTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_FileManager.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_FileManagerTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_FirmwareImage.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_FirmwarePlugin.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_FirmwarePluginManager.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_FirmwareUpgradeController.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_FixedWingLandingComplexItem.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_FlightGearTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_FlightMapSettings.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_FlightModesComponent.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_FollowMe.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_GPSManager.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_GPSProvider.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_GPSRTKFactGroup.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_GenericAutoPilotPlugin.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_GeoFenceController.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_GeoFenceManager.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_GeoTagController.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_GeoTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_GuidedSettings.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_HILDockWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_HeartbeatTimer.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_IncrementalPlot.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_Joystick.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_JoystickConfigController.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_JoystickManager.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_KMLFileHelper.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_LinechartPlot.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_LinechartWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_Linecharts.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_LinkConfiguration.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_LinkInterface.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_LinkManager.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_LinkManagerTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_LogCompressor.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_LogDownloadController.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_LogDownloadTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_LogReplayLink.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_MAVLinkDecoder.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_MAVLinkLogManager.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_MAVLinkProtocol.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_MainWindow.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_MainWindowTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_MavlinkConsoleController.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_MavlinkLogTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_MessageBoxTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_MissionCommandList.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_MissionCommandTree.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_MissionCommandTreeTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_MissionCommandUIInfo.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_MissionController.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_MissionControllerManagerTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_MissionControllerTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_MissionItem.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_MissionItemTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_MissionManager.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_MissionManagerTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_MissionSettingsItem.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_MissionSettingsTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_MockLink.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_MockLinkFileServer.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_MockLinkMissionItemHandler.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_MotorComponent.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_MultiSignalSpy.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_MultiVehicleDockWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_MultiVehicleManager.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_PX4AdvancedFlightModesController.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_PX4AirframeLoader.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_PX4AutoPilotPlugin.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_PX4FirmwarePlugin.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_PX4FirmwarePluginFactory.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_PX4FirmwareUpgradeThread.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_PX4ParameterMetaData.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_PX4RadioComponent.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_PX4SimpleFlightModesController.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_PX4TuningComponent.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_ParameterEditorController.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_ParameterManager.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_ParameterManagerTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_PlanElementController.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_PlanManager.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_PlanMasterController.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_PlanMasterControllerTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_PositionManager.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_PowerComponent.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_PowerComponentController.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_ProtocolInterface.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGC.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCApplication.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCCameraControl.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCCameraManager.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCComboBox.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCCorePlugin.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCDockWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCFenceCircle.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCFencePolygon.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCFileDialogController.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCFileDownload.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCFlightGearLink.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCHilConfiguration.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCHilFlightGearConfiguration.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCHilJSBSimConfiguration.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCHilLink.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCHilXPlaneConfiguration.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCJSBSimLink.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCLoggingCategory.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCMAVLinkInspector.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCMAVLinkLogPlayer.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCMapCircle.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCMapEngine.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCMapEngineData.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCMapEngineManager.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCMapPalette.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCMapPolygon.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCMapPolygonTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCMapPolyline.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCMapPolylineTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCMapRCToParamDialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCMapTileSet.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCMapUrlEngine.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCOptions.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCPalette.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCQGeoCoordinate.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCQmlWidgetHolder.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCQuickWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCSettings.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCTemporaryFile.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCTileCacheWorker.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCToolbox.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCUASFileView.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCUASFileViewMulti.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCUnconnectedInfoWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGCXPlaneLink.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGeoCodeReplyQGC.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGeoCodingManagerEngineQGC.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGeoMapReplyQGC.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGeoServiceProviderPluginQGC.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGeoTileFetcherQGC.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGeoTiledMappingManagerEngineQGC.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QGroundControlQmlGlobal.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QmlComponentInfo.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QmlObjectListModel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_QmlTestWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_RCChannelMonitorController.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_RTCMMavlink.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_RTKSettings.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_RadioComponentController.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_RadioConfigTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_RallyPoint.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_RallyPointController.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_RallyPointManager.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_SafetyComponent.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_ScreenToolsController.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_ScrollZoomer.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_Scrollbar.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_Section.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_SectionTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_SendMavCommandTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_SensorsComponent.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_SensorsComponentController.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_SerialLink.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_SettingsFact.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_SettingsGroup.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_SettingsManager.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_SimpleMissionItem.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_SimpleMissionItemTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_SimulatedPosition.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_SpeedSection.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_SpeedSectionTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_StructureScanComplexItem.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_StructureScanComplexItemTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_SurveyComplexItem.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_SurveyComplexItemTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_SyslinkComponent.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_SyslinkComponentController.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_TCPLink.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_TCPLinkTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_TCPLoopBackServer.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_TerrainQuery.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_TransectStyleComplexItem.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_TransectStyleComplexItemTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_UAS.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_UASInterface.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_UASMessageHandler.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_UDPLink.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_UnitTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_UnitsSettings.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_ValuesWidgetController.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_Vehicle.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_VehicleComponent.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_VideoItem.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_VideoManager.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_VideoReceiver.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_VideoSettings.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_VideoSurface.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_ViewWidgetController.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_VisualMissionItem.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_VisualMissionItemTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <CustomBuild Include="..\build\moc\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <ClCompile Include="moc\moc_qwt_abstract_legend.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_qwt_abstract_scale.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_qwt_abstract_slider.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_qwt_analog_clock.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_qwt_compass.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_qwt_counter.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_qwt_dial.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_qwt_dyngrid_layout.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_qwt_knob.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_qwt_legend.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_qwt_legend_label.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_qwt_magnifier.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_qwt_panner.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_qwt_picker.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_qwt_plot.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_qwt_plot_canvas.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_qwt_plot_magnifier.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_qwt_plot_panner.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_qwt_plot_picker.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_qwt_plot_zoomer.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_qwt_scale_widget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_qwt_slider.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_qwt_text_label.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_qwt_thermo.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc\moc_qwt_wheel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rcc\qrc_APMResources.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rcc\qrc_HackFileDialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rcc\qrc_PX4Resources.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rcc\qrc_UnitTest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rcc\qrc_qgcresources.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rcc\qrc_qgroundcontrol.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\stable_headers.h.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClInclude Include="ui\ui_Linechart.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ui_MainWindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ui_MultiVehicleDockWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ui_QGCHilConfiguration.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ui_QGCHilFlightGearConfiguration.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ui_QGCHilJSBSimConfiguration.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ui_QGCHilXPlaneConfiguration.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ui_QGCMAVLinkInspector.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ui_QGCMAVLinkLogPlayer.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ui_QGCMapRCToParamDialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ui_QGCQmlWidgetHolder.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ui_QGCUASFileView.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ui_QGCUASFileViewMulti.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ui_QGCUnconnectedInfoWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\src\ui\Linechart.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\ui\MainWindow.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\ui\MultiVehicleDockWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\ui\QGCHilConfiguration.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\ui\QGCHilFlightGearConfiguration.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\ui\QGCHilJSBSimConfiguration.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\ui\QGCHilXPlaneConfiguration.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\ui\QGCMAVLinkInspector.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\ui\QGCMAVLinkLogPlayer.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\ui\QGCMapRCToParamDialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\QGCQmlWidgetHolder.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\ui\QGCUASFileView.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\ui\QGCUASFileViewMulti.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\src\ui\uas\QGCUnconnectedInfoWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\resources\firmware\3drradio.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\APM\APMAirframeComponent.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\APM\APMAirframeComponentSummary.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\APM\APMAirframeFactMetaData.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\comm\APMArduCopterMockLink.params">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\comm\APMArduPlaneMockLink.params">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\comm\APMArduSubMockLink.params">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FirmwarePlugin\APM\APMBrandImage.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FirmwarePlugin\APM\APMBrandImageSub.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\APM\APMCameraComponent.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\APM\APMCameraComponentSummary.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\APM\APMFlightModesComponent.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\APM\APMFlightModesComponentSummary.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\APM\APMLightsComponent.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\APM\APMLightsComponentSummary.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\APM\APMNotSupported.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FirmwarePlugin\APM\APMParameterFactMetaData.Copter.3.3.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FirmwarePlugin\APM\APMParameterFactMetaData.Copter.3.4.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FirmwarePlugin\APM\APMParameterFactMetaData.Copter.3.5.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FirmwarePlugin\APM\APMParameterFactMetaData.Copter.3.6.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FirmwarePlugin\APM\APMParameterFactMetaData.Plane.3.3.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FirmwarePlugin\APM\APMParameterFactMetaData.Plane.3.5.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FirmwarePlugin\APM\APMParameterFactMetaData.Plane.3.7.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FirmwarePlugin\APM\APMParameterFactMetaData.Plane.3.8.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FirmwarePlugin\APM\APMParameterFactMetaData.Rover.3.0.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FirmwarePlugin\APM\APMParameterFactMetaData.Rover.3.2.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FirmwarePlugin\APM\APMParameterFactMetaData.Sub.3.4.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FirmwarePlugin\APM\APMParameterFactMetaData.Sub.3.5.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\APM\APMPowerComponent.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\APM\APMPowerComponentSummary.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\APM\APMRadioComponentSummary.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\src\FirmwarePlugin\APM\APMResources.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\src\AutoPilotPlugins\APM\APMSafetyComponentCopter.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\APM\APMSafetyComponentPlane.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\APM\APMSafetyComponentRover.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\APM\APMSafetyComponentSub.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\APM\APMSafetyComponentSummaryCopter.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\APM\APMSafetyComponentSummaryPlane.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\APM\APMSafetyComponentSummaryRover.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\APM\APMSafetyComponentSummarySub.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FirmwarePlugin\APM\APMSensorParams.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\APM\APMSensorsComponent.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\APM\APMSensorsComponentSummary.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\APM\APMSubFrameComponent.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\APM\APMSubFrameComponentSummary.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\APM\APMTuningComponentCopter.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\APMode.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\AirframeComponent.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\AirframeComponentIcon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\AirframeComponentSummary.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\AirframeFactMetaData.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\AirframeSimulation.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\AirframeUnknown.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\Images\Analyze.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AnalyzeView\AnalyzePage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AnalyzeView\AnalyzeView.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\Antenna_RC.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\Antenna_T.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\Settings\App.SettingsGroup.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\AppMessages.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\AppSettings.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\Images\Armed.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\ArmedIndicator.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\ArrowCCW.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\ArrowCW.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\ArrowDirection.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\ArrowDown.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\ArrowRight.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\Settings\AutoConnect.SettingsGroup.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\Images\Battery.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\Vehicle\BatteryFact.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\BatteryIndicator.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\preferences\BluetoothSettings.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\Boat.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\Settings\BrandImage.SettingsGroup.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\CameraCalc.FactMetaData.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\PlanView\CameraCalc.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\CameraComponent.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\CameraComponentIcon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\CameraComponentSummary.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\Images\CameraIcon.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Widgets\CameraPageWidget.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\CameraSection.FactMetaData.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\PlanView\CameraSection.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\CameraSpec.FactMetaData.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\CameraTrigger.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\MapItems\CameraTriggerIndicator.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Widgets\CenterMapDropButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Widgets\CenterMapDropPanel.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\ClickableColor.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\Vehicle\ClockFact.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\CogWheel.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\CogWheels.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Widgets\CompassRing.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\Images\Connect.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FirmwarePlugin\APM\Copter3.5.OfflineEditing.params">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\CorridorScan.SettingsGroup.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\PlanView\CorridorScanEditor.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\PlanView\CorridorScanMapVisual.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ViewWidgets\CustomCommandWidget.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\MapItems\CustomMapItems.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\DatalinkLoss.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\DatalinkLossLight.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\DeadMouseArea.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\preferences\DebugWindow.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\Images\Disarmed.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\Images\Disconnect.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\Vehicle\DistanceSensorFact.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\DropButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\DropPanel.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\ESP8266Component.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\ESP8266ComponentSummary.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\EditPositionDialog.FactMetaData.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\EditPositionDialog.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\ExclusiveGroupItem.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\FWLandingPattern.FactMetaData.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\PlanView\FWLandingPatternEditor.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\PlanView\FWLandingPatternMapVisual.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FactSystem\FactControls\FactBitmask.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FactSystem\FactControls\FactCheckBox.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FactSystem\FactControls\FactComboBox.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FactSystem\FactControls\FactLabel.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FactSystem\FactControls\FactPanel.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\FactSliderPanel.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FactSystem\FactSystemTest.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FactSystem\FactControls\FactTextField.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FactSystem\FactControls\FactTextFieldGrid.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FactSystem\FactControls\FactTextFieldRow.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FactSystem\FactControls\FactValueSlider.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\FileButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\VehicleSetup\FirmwareUpgrade.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\VehicleSetup\FirmwareUpgradeIcon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightDisplay\FlightDisplayView.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightDisplay\FlightDisplayViewDummy.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightDisplay\FlightDisplayViewMap.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightDisplay\FlightDisplayViewUVC.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightDisplay\FlightDisplayViewVideo.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightDisplay\FlightDisplayViewWidgets.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\Settings\FlightMap.SettingsGroup.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\FlightMap.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\FlightModeDropdown.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\FlightModeMenu.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\FlightModesComponentIcon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\FlightModesComponentSummary.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\FlyingWing.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\Vehicle\GPSFact.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\GPSIndicator.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\Vehicle\GPSRTKFact.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\GPSRTKIndicator.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\Images\Gears.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\preferences\GeneralSettings.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\GeoFence.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\PlanView\GeoFenceEditor.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\GeoFenceLight.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\PlanView\GeoFenceMapVisuals.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AnalyzeView\GeoTagIcon.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AnalyzeView\GeoTagPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\Images\Gps.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\Settings\Guided.SettingsGroup.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightDisplay\GuidedActionConfirm.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightDisplay\GuidedActionList.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightDisplay\GuidedActionsController.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightDisplay\GuidedAltitudeSlider.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\HackFileDialog.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\HackFileDialog.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\src\ui\toolbar\Images\Hamburger.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Widgets\HealthPageWidget.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\Helicopter.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\HelicopterCoaxial.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Images\Help.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Images\HelpBlack.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\HexaRotorPlus.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\HexaRotorX.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\IndicatorButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Widgets\InstrumentSwipeView.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\Images\Joystick.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\JoystickBezel.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\JoystickBezelLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\VehicleSetup\JoystickConfig.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\JoystickIndicator.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\JoystickThumbPad.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\LandMode.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\LandModeCopter.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\APM\Images\LightsComponentIcon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\LinkIndicator.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\preferences\LinkSettings.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AnalyzeView\LogDownloadIcon.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AnalyzeView\LogDownloadPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\preferences\LogReplaySettings.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\LowBattery.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\LowBatteryLight.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\MainToolBar.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\MainToolBarIndicators.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\MainWindowHybrid.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\MainWindowInner.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\MainWindowNative.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Images\MapAddMission.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Images\MapAddMissionBlack.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Images\MapCenter.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Images\MapCenterBlack.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Images\MapDrawShape.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Widgets\MapFitFunctions.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Images\MapHome.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Images\MapHomeBlack.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\MapScale.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Images\MapSync.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Images\MapSyncBlack.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Images\MapSyncChanged.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Images\MapType.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Images\MapTypeBlack.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FirmwarePlugin\APM\MavCmdInfoCommon.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FirmwarePlugin\PX4\MavCmdInfoCommon.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\MavCmdInfoCommon.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\UnitTest\MavCmdInfoCommon.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FirmwarePlugin\APM\MavCmdInfoFixedWing.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FirmwarePlugin\PX4\MavCmdInfoFixedWing.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\MavCmdInfoFixedWing.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\UnitTest\MavCmdInfoFixedWing.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FirmwarePlugin\APM\MavCmdInfoMultiRotor.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FirmwarePlugin\PX4\MavCmdInfoMultiRotor.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\MavCmdInfoMultiRotor.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\UnitTest\MavCmdInfoMultiRotor.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FirmwarePlugin\APM\MavCmdInfoRover.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FirmwarePlugin\PX4\MavCmdInfoRover.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\MavCmdInfoRover.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\UnitTest\MavCmdInfoRover.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FirmwarePlugin\APM\MavCmdInfoSub.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FirmwarePlugin\PX4\MavCmdInfoSub.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\MavCmdInfoSub.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\UnitTest\MavCmdInfoSub.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FirmwarePlugin\APM\MavCmdInfoVTOL.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FirmwarePlugin\PX4\MavCmdInfoVTOL.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\MavCmdInfoVTOL.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\UnitTest\MavCmdInfoVTOL.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AnalyzeView\MavlinkConsoleIcon.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AnalyzeView\MavlinkConsolePage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\preferences\MavlinkSettings.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\Images\Megaphone.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\MessageIndicator.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\MissionCommandDialog.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\PlanView\MissionItemEditor.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\MissionItemIndexLabel.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\MapItems\MissionItemIndicator.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\MapItems\MissionItemIndicatorDrag.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\PlanView\MissionItemMapVisual.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\PlanView\MissionItemStatus.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\MapItems\MissionItemView.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\MapItems\MissionLineView.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\UnitTest\MissionPlanner.waypoints">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\MissionSettings.FactMetaData.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\PlanView\MissionSettingsEditor.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\preferences\MockLink.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\preferences\MockLinkSettings.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\ModeIndicator.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\ModeSwitchDisplay.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\MotorComponent.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\MotorComponentIcon.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\MultiRotorMotorDisplay.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightDisplay\MultiVehicleList.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\OctoRotorPlus.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\OctoRotorPlusCoaxial.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\OctoRotorX.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\OctoRotorXCoaxial.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QtLocationPlugin\QMLControl\OfflineMap.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\OfflineMapButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\UnitTest\OldFileFormat.mission">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\fonts\OpenSans-Regular.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\fonts\OpenSans-Semibold.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\PIDTuning.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\PX4AdvancedFlightModes.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FirmwarePlugin\PX4\PX4BrandImage.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\PX4FlightModes.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\VehicleSetup\PX4FlowSensor.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\comm\PX4MockLink.params">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FirmwarePlugin\PX4\PX4ParameterFactMetaData.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\PX4RadioComponentSummary.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\src\FirmwarePlugin\PX4\PX4Resources.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\src\AutoPilotPlugins\PX4\PX4SimpleFlightModes.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\PX4TuningComponentCopter.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\PX4TuningComponentPlane.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\PX4TuningComponentVTOL.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\PageView.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\Images\PaperPlane.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\ParameterEditor.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\ParameterEditorDialog.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\Pause.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Images\PiP.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\Images\Plan.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\MapItems\PlanMapItems.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\PlanView\PlanToolBar.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\PlanView\PlanView.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\Plane.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FirmwarePlugin\APM\Plane3.7.OfflineEditing.params">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\PlaneATail.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\Play.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\UnitTest\PolygonAreaTest.kml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\UnitTest\PolygonBadCoordinatesNode.kml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\UnitTest\PolygonBadXml.kml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\MapItems\PolygonEditor.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\UnitTest\PolygonGood.kml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\UnitTest\PolygonMissingNode.kml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\PowerButton.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\PowerComponent.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\PowerComponentBattery_01cell.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\PowerComponentBattery_02cell.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\PowerComponentBattery_03cell.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\PowerComponentBattery_04cell.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\PowerComponentBattery_05cell.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\PowerComponentBattery_06cell.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\PowerComponentIcon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\PowerComponentSummary.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightDisplay\PreFlightAHRSCheck.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightDisplay\PreFlightBatteryCheck.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\PreFlightCheckButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightDisplay\PreFlightCheckList.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightDisplay\PreFlightRCCheck.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightDisplay\PreFlightSensorsCheck.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightDisplay\PreFlightSoundCheck.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Widgets\QGCArtificialHorizon.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Widgets\QGCAttitudeHUD.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Widgets\QGCAttitudeWidget.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\QGCButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\QGCCheckBox.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\QGCColoredImage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\QGCComboBox.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Widgets\QGCCompassWidget.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\QGCFileDialog.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\QGCFlickable.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\QGCFlickableHorizontalIndicator.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\QGCFlickableVerticalIndicator.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\QGCGroupBox.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Widgets\QGCInstrumentWidget.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Widgets\QGCInstrumentWidgetAlternate.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\QGCLabel.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\QGCListView.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\QGCLogoBlack.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\QGCLogoFull.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\QGCLogoWhite.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\QGCMapCircle.Facts.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\QGCMapCircleVisuals.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\QGCMapLabel.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\QGCMapPolygonVisuals.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\QGCMapPolylineVisuals.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\QGCMouseArea.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\QGCMovableItem.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\QGCPipable.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Widgets\QGCPitchIndicator.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\QGCRadioButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\QGCSlider.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\QGCSwitch.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\QGCTextField.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\QGCToolBarButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\QGCVideoBackground.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\QGCView.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\QGCViewDialog.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\QGCViewDialogContainer.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\QGCViewMessage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\QGCViewPanel.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FirmwarePlugin\APM\QGroundControl.ArduPilot.qmldir">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\QGroundControl.Controls.qmldir">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FirmwarePlugin\PX4\QGroundControl.PX4.qmldir">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\QGroundControl.ScreenTools.qmldir">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\QGroundControlConnect.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\QmlTest.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\Images\Quad.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\QuadRotorATail.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\QuadRotorH.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\QuadRotorPlus.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\QuadRotorVTail.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\QuadRotorWide.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\QuadRotorX.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\Images\RC.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\RCChannelMonitor.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\RCLoss.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\RCLossLight.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\RCRSSIIndicator.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\Settings\RTK.SettingsGroup.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\Images\RTK.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\RadioComponent.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\RadioComponentIcon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\RallyPoint.FactMetaData.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\PlanView\RallyPointEditorHeader.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\PlanView\RallyPointItemEditor.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\PlanView\RallyPointMapVisuals.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\ReturnToHomeAltitude.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\ReturnToHomeAltitudeCopter.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\RoundButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\Rover.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\SafetyComponent.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\SafetyComponentIcon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\SafetyComponentSummary.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\ScreenTools.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\PlanView\SectionHeader.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\UnitTest\SectionTest.plan">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\SensorsComponent.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\SensorsComponentIcon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\SensorsComponentSummary.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\SensorsComponentSummaryFixedWing.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\SensorsSetup.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\preferences\SerialSettings.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\Vehicle\SetpointFact.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\SetupPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\VehicleSetup\SetupParameterEditor.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\VehicleSetup\SetupView.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\Images\Signal0.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\Images\Signal100.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\Images\Signal20.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\Images\Signal40.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\Images\Signal60.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\Images\Signal80.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\SignalStrength.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\PlanView\SimpleItemEditor.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\PlanView\SimpleItemMapVisual.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\SliderSwitch.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\SpeedSection.FactMetaData.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\SplashScreen.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\StationMode.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\Stop.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\StructureScan.SettingsGroup.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\PlanView\StructureScanEditor.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\PlanView\StructureScanMapVisual.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\APM\Images\SubFrameComponentIcon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\SubMenuButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\Vehicle\SubmarineFact.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\Survey.SettingsGroup.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\PlanView\SurveyItemEditor.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\PlanView\SurveyMapVisual.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\SyslinkComponent.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\preferences\TcpSettings.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\Images\TelemRSSI.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\TelemetryRSSIIndicator.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\Vehicle\TemperatureFact.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\ToolStrip.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\MissionManager\TransectStyle.SettingsGroup.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\PlanView\TransectStyleComplexItemStats.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\TrashDelete.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\TuningComponentIcon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\comm\USBBoardInfo.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\preferences\UdpSettings.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\UnitTest.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\src\Settings\Units.SettingsGroup.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FirmwarePlugin\PX4\V1.4.OfflineEditing.params">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\VTOLDuoRotorTailSitter.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\VTOLModeIndicator.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\VTOLPlane.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\VTOLQuadRotorTailSitter.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\VTOLTiltRotor.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Widgets\ValuePageWidget.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\VehicleDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\VehicleDownRotate.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\Vehicle\VehicleFact.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\VehicleLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\VehicleLeftRotate.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\MapItems\VehicleMapItem.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\VehicleNoseDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\VehicleNoseDownRotate.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\VehicleRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\VehicleRightRotate.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\VehicleRotationCal.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\VehicleSetup\VehicleSummary.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\VehicleSetup\VehicleSummaryIcon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\VehicleSummaryRow.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\VehicleTailDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\VehicleTailDownRotate.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\VehicleUpsideDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\PX4\Images\VehicleUpsideDownRotate.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\Vehicle\VibrationFact.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Widgets\VibrationPageWidget.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\Settings\Video.SettingsGroup.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Widgets\VideoPageWidget.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ViewWidgets\ViewWidget.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightDisplay\VirtualJoystick.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\Vehicle\WindFact.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\XDelete.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\XDeleteBlack.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\Y6A.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\Y6B.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\YMinus.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\YPlus.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\ui\toolbar\Images\Yield.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Images\ZoomMinus.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Images\ZoomPlus.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\accel_back.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\accel_down.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\accel_front.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\accel_left.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\accel_right.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\accel_up.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\action.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Images\adsbVehicle.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\mavs\airship.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\audio\alert.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\mavs\antenna-tracker.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\firmware\apm.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\arrow-down.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Images\attitudeDial.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Images\attitudeInstrument.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Images\attitudePointer.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\APM\Images\bluerov-frame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\opengl\buglist.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\buttonLeft.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\buttonRight.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\camera.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\Camera\images\camera_photo.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\Camera\images\camera_video.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\cancel.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\QmlControls\check.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\check.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\mavs\coaxial.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Images\compassInstrumentArrow.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Images\compassInstrumentDial.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Images\crossHair.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\mavs\fixed-wing.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\mavs\flapping-wing.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\mavs\free-balloon.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\SDL_GameControllerDB\gamecontrollerdb.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\gear-black.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\gear-white.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\mavs\generic.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\mavs\ground-rover.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\mavs\groundstation.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\mavs\helicopter.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\mavs\hexarotor.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode1\joystickCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode2\joystickCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode3\joystickCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode4\joystickCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode1\joystickPitchDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode2\joystickPitchDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode3\joystickPitchDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode4\joystickPitchDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode1\joystickPitchUp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode2\joystickPitchUp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode3\joystickPitchUp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode4\joystickPitchUp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode1\joystickRollLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode2\joystickRollLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode3\joystickRollLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode4\joystickRollLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode1\joystickRollRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode2\joystickRollRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode3\joystickRollRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode4\joystickRollRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode1\joystickThrottleDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode2\joystickThrottleDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode3\joystickThrottleDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode4\joystickThrottleDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode1\joystickThrottleUp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode2\joystickThrottleUp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode3\joystickThrottleUp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode4\joystickThrottleUp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode1\joystickYawLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode2\joystickYawLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode3\joystickYawLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode4\joystickYawLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode1\joystickYawRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode2\joystickYawRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode3\joystickYawRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\joystick\mode4\joystickYawRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\mavs\kite.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\land.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\notile.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\mavs\octorotor.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\pause-mission.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Images\pipHide.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Images\pipResize.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\firmware\px4.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\qgcresources.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\resources\icons\qgroundcontrol.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\qgroundcontrol.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\src\FactSystem\FactControls\qmldir">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightDisplay\qmldir">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\qmldir">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\mavs\quadrotor.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\mode1\radioCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\mode2\radioCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\mode1\radioHome.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\mode2\radioHome.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\mode1\radioPitchDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\mode2\radioPitchDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\mode1\radioPitchUp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\mode2\radioPitchUp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\mode1\radioRollLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\mode2\radioRollLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\mode1\radioRollRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\mode2\radioRollRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\mode1\radioSwitchMinMax.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\mode2\radioSwitchMinMax.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\mode1\radioThrottleDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\mode2\radioThrottleDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\mode1\radioThrottleUp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\mode2\radioThrottleUp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\mode1\radioYawLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\mode2\radioYawLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\mode1\radioYawRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\calibration\mode2\radioYawRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\mavs\rocket.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Images\rollDialWhite.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Images\rollPointerWhite.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\rtl.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Images\scale.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Images\scaleLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Images\scale_end.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Images\scale_endLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\APM\Images\simple3-frame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\APM\Images\simple4-frame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\styles\style-dark.css">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\styles\style-light.css">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Images\sub.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\mavs\submarine.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\mavs\surface-boat.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\takeoff.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\test.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\mavs\tricopter.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\mavs\unknown.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\APM\Images\vectored-frame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\APM\Images\vectored6dof-frame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Images\vehicleArrowOpaque.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\FlightMap\Images\vehicleArrowOutline.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\waves.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\src\AutoPilotPlugins\Common\Images\wifi.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\wind-guru.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\wind-rose-arrow.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\wind-rose.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\wind-roseBlack.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\build\QGroundControl_resource.rc" />
+  </ItemGroup>
+</Project>
